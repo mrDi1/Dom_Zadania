@@ -8,10 +8,12 @@ int c = 9;
 int max = a;
 
     // Нахождение максимума
-    if (b > max) {
+    if (b > max) 
+    {
         max = b;
     }
-    if (c > max) {
+    if (c > max) 
+    {
         max = c;
     }
 
