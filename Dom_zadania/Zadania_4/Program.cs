@@ -7,9 +7,9 @@
             while (num <= n)
             {
                 int result = num % 2;
-                if (result != 1)                         // != проверка на true или false, и отбераем только true
+                if (result != 1)                         // != проверяем result на true или false к 1, и отбераем только true
                 {
-                    Console.WriteLine("четное " + num);
+                    Console.WriteLine("четное " + num);  // подсмотрел в интернете как ставить текст перед выводом ответа!
                     num = num + 1;
                 }
                 else
